@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+.textbox{
+    width: 100px;
+    margin-bottom: 20px;
+}
+#btnujjatek{
+    margin-bottom: 20px;
+    
+}
+#tabla{
+    box-sizing: border-box;
+    margin: auto;
+}
+.game-element{
+    height: 25px;
+    width: 25px;
+    border: solid black 1px;
+    display: inline; 
+    float: left;
+}
+.jelolt{
+    background-image: url("flag.jpg");
+    background-size: 100%;
+}
+.tile{
+    background-image: url("tile.jpg");
+    background-size: 100%;
+}
+.bomba{
+    background-image: url("bomba.jpg");
+    background-size: 100%;
+}
+.ures{
+    background-image: url("ures.jpg");
+    background-size: 100%;
+}
+.szam h3 {
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+#veges{
+    
+    width: 150px;
+    height: 100px;
+    position: relative;
+    background-color: lightgray;
+    top:100px;
+    margin: auto;
+    border: 2px blue solid;
+    z-index: 700;
+}
+#veges h2{
+    position: absolute;
+    top: 10;
+    left: 30px ;
+    
+}

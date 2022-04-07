@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minesweeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <input id="btnujjatek" type="button" value="uj jatek" onclick="ujjatek()">
+    <br>
+    <label for="mines">mines: </label>
+    <input class="textbox" type="number" value="10" name="mines" id="mines">
+    <label for="meret">meret: </label>
+    <input class="textbox" type="number" max="25" value="10" name="meret" id="meret">
+    <div id="tabla"></div>
+    
+    <script src="minesweeper.js"></script>
+    <script>ujjatek()</script>
+</body>
+</html>
